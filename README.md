@@ -1,0 +1,2 @@
+# webdev_hotelparaiso
+Web_Intelligence enterprise challenge

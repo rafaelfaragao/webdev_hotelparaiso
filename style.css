@@ -3,6 +3,10 @@ margin: 0;
 padding: 0;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     height: 100px;
     background: rgb(255, 255, 255);
@@ -104,6 +108,7 @@ main {
     display: flex;
     justify-content: center;
     align-items:center;
+    margin-bottom: 50px;
 }
 
 .main-container{
@@ -127,4 +132,40 @@ main {
 .img-right {
     width: 60%;
 }
+
+/*footer*/
+
+#informations{
+  background-color: #333333;
+  height: 100vh;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#text_info{
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+#hotel_informations{
+  display: flex;
+  height: 100%;
+}
+
+.hotel_info {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hotel_info img{
+  width: 80px;
+  height: 80px;
+}
+
+
 

@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+#informations{
+  background-color: #333333;
+  height: 100vh;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#text_info{
+  margin-top: 72px;
+  
+}
+
+.hotel_info img{
+  width: 80px;
+  height: 80px;
+}
+
+#hotel_informations{
+  display: flex;
+}
+
+

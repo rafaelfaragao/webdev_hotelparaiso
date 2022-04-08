@@ -1,6 +1,8 @@
 *{
 margin: 0;
 padding: 0;
+scroll-behavior: smooth;
+box-sizing: border-box;
 }
 
 body{
@@ -8,6 +10,9 @@ body{
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 100px;
     background: rgb(255, 255, 255);
     display: flex;
@@ -52,6 +57,7 @@ nav a {
 
 div.banner {
     background-image: url(https://s1.1zoom.me/b5453/24/Maldives_Coast_Evening_Tropics_Gili_Lankanfushi_523317_1920x1080.jpg);
+    background-attachment: fixed;
     color: rgb(255, 255, 255);
     text-align: center;
     height: 100vh;

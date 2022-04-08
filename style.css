@@ -48,12 +48,22 @@ main{
      justify-content: center;
      width: 100%;
     display: flex;
-    gap: 20px;
+    gap: 45px;
     margin-bottom: 40px;
+    margin: 0 100px;
 
 }
 
-.main-container img {
-    width: 45%;
+.img-left, .img-right {
+    height: 300px;
+}
+
+.img-left {
+    width: 40%;
+}
+
+.img-right {
+    width: 60%;
+
 }
 

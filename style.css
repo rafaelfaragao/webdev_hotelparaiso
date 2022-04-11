@@ -158,7 +158,10 @@ main {
 #hotel_informations{
   display: flex;
   height: 100%;
+ 
+  
 }
+
 
 .hotel_info {
   padding: 24px;
@@ -171,6 +174,45 @@ main {
 .hotel_info img{
   width: 80px;
   height: 80px;
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    font-size: 10px;    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color:dimgray ;
+}
+
+
+.text-cadastrar h2{
+    text-align: center;
+    display: flex;
+    margin: 50px;
+    font-size: 15px;
+    height: 50px;
+}
+
+.barra-de-cadastro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    
+}
+
+.barra-de-cadastro input{
+    width:650px;
+    padding: 20px;
+}
+
+.barra-de-cadastro button{
+    background-color:darkgoldenrod ;
+    height: 60px;
 }
 
 

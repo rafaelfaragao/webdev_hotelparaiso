@@ -175,3 +175,64 @@ main {
 
 
 
+@media (max-width: 799px){
+    body header .container ul{
+        display: none;
+    }
+
+    .text-container{
+        margin: 33px;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-left {
+        width: 183%;
+        height: 246px;
+    }
+
+    .img-right {
+        width:185%;
+        height: 261px;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px;
+        font-size: 20px;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        margin: 30px;
+    }
+
+    #informations {
+        height: auto;
+    }
+    
+    #hotel_informations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastrar {
+        margin: auto;
+        margin-top: 40px;
+    }
+
+
+    body .banner {
+        background-image: url(https://www.imagensparawhats.club/wp-content/uploads/2019/02/Praia-2.jpg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        color:#FFF;
+    }

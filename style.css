@@ -56,7 +56,7 @@ nav a {
 }
 
 .banner {
-    background-image: url(https://s1.1zoom.me/b5453/24/Maldives_Coast_Evening_Tropics_Gili_Lankanfushi_523317_1920x1080.jpg);
+    background-image: url(/assets/banner.jpg);
     background-attachment: fixed;
     background-size: cover;
     color: rgb(255, 255, 255);
@@ -313,7 +313,7 @@ main {
     }
 
     body .banner {
-        background-image: url(https://www.imagensparawhats.club/wp-content/uploads/2019/02/Praia-2.jpg);
+        background-image: url(/assets/responsive-banner.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         color:#FFF;

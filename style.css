@@ -158,10 +158,7 @@ main {
 #hotel_informations{
   display: flex;
   height: 100%;
- 
-  
 }
-
 
 .hotel_info {
   padding: 24px;
@@ -176,46 +173,43 @@ main {
   height: 80px;
 }
 
-.cadastrar{
+.cadastrar {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px;
-    font-size: 10px;    
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    color:dimgray ;
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 
+.titulo-cadastrar {
+    font-size: 12px;
+}
 
 .text-cadastrar h2{
     text-align: center;
-    display: flex;
-    margin: 50px;
     font-size: 15px;
-    height: 50px;
-}
-
-.barra-de-cadastro{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    padding: 60px;
     
-    
-}
-
-.barra-de-cadastro input{
-    width:650px;
-    padding: 20px;
 }
 
 .barra-de-cadastro button{
-    background-color:darkgoldenrod ;
-    height: 60px;
+    background-color: darkorange;
+    width: 110px;
+    height: 28px;
 }
 
+.barra-de-cadastro input{
+    font-size: medium;
+    width: 680px;
+    height: 28px;
+    
+}
 
+.barra-de-cadastro{
+    display: flex;
+    gap: 20px;
+}
 
 @media (max-width: 799px){
     body header .container ul{
@@ -229,15 +223,16 @@ main {
     .main-container{
         display: flex;
         flex-direction: column;
+        margin: 0 20px;
     }
 
     .img-left {
-        width: 183%;
+        width: 100%;
         height: 246px;
     }
 
     .img-right {
-        width:185%;
+        width:100%;
         height: 261px;
     }
 
@@ -271,11 +266,20 @@ main {
         margin-top: 40px;
     }
 
+    .text-cadastrar{
+        margin: auto;
+    }
+
+    .barra-de-cadastro input{
+        height: auto;
+        width: auto;
+    }
 
     body .banner {
         background-image: url(https://www.imagensparawhats.club/wp-content/uploads/2019/02/Praia-2.jpg);
-        background-size:contain;
+        background-size:cover;
         background-repeat: no-repeat;
         color:#FFF;
     }
+
   }

@@ -55,9 +55,10 @@ nav a {
     text-decoration: none;
 }
 
-div.banner {
-    background-image: url(https://s1.1zoom.me/b5453/24/Maldives_Coast_Evening_Tropics_Gili_Lankanfushi_523317_1920x1080.jpg);
+.banner {
+    background-image: url(/assets/banner.jpg);
     background-attachment: fixed;
+    background-size: cover;
     color: rgb(255, 255, 255);
     text-align: center;
     height: 100vh;
@@ -65,6 +66,10 @@ div.banner {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.banner h1, .banner h2{
+  margin-bottom: 20px;
 }
 
 button {
@@ -76,6 +81,17 @@ button {
     height: 50px;
     color: #000000;
     font-size: small;
+}
+
+#responsive-icon {
+  display: none;
+  width: 50px;
+  height: 50px;
+}
+
+#responsive-icon img{
+  width: 100%;
+  height: 100%;
 }
 
 /* section two*/
@@ -91,7 +107,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .text-container{
@@ -143,7 +159,7 @@ main {
 
 #informations{
   background-color: #333333;
-  height: 100vh;
+  min-height: 700px;
   color: #FFF;
   display: flex;
   flex-direction: column;
@@ -152,12 +168,28 @@ main {
 
 #text_info{
   margin-top: 72px;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
+}
+
+#text_info h2 {
+  margin-bottom: 20px;
+}
+
+#page_break{
+  width: 30%;
+  height: 5px;
+  background-color: #FFF;
+  margin: 60px auto 0;
 }
 
 #hotel_informations{
   display: flex;
+<<<<<<< HEAD
   height: 100%;
+=======
+  min-height: 400px;
+  margin: 0 20px;
+>>>>>>> feature/responsive-menu
 }
 
 .hotel_info {
@@ -178,6 +210,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
     margin-top: 80px;
     margin-bottom: 100px;
 }
@@ -186,11 +219,34 @@ main {
     font-size: 12px;
 }
 
+=======
+    margin: 50px;
+    font-size: 10px;
+    color:dimgray ;
+}
+
+>>>>>>> feature/responsive-menu
 .text-cadastrar h2{
     text-align: center;
     font-size: 15px;
+<<<<<<< HEAD
     padding: 60px;
     
+=======
+    height: 50px;
+}
+
+.barra-de-cadastro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.barra-de-cadastro input{
+    width:650px;
+    padding: 20px;
+>>>>>>> feature/responsive-menu
 }
 
 .barra-de-cadastro button{
@@ -211,9 +267,25 @@ main {
     gap: 20px;
 }
 
-@media (max-width: 799px){
-    body header .container ul{
+@media screen and (max-width: 799px){
+    header {
+      padding: 0 20px;
+    }
+  
+    header .container {
+      padding: 0;
+    }
+  
+    header .container ul{
         display: none;
+    }
+
+    #responsive-icon {
+      display: block;
+    }
+
+    #wrapper {
+      margin: 0 10px 20px;
     }
 
     .text-container{
@@ -221,9 +293,12 @@ main {
     }
 
     .main-container{
-        display: flex;
         flex-direction: column;
+<<<<<<< HEAD
         margin: 0 20px;
+=======
+        margin: 0;
+>>>>>>> feature/responsive-menu
     }
 
     .img-left {
@@ -266,6 +341,7 @@ main {
         margin-top: 40px;
     }
 
+<<<<<<< HEAD
     .text-cadastrar{
         margin: auto;
     }
@@ -283,3 +359,16 @@ main {
     }
 
 }
+=======
+    .barra-de-cadastro{
+      width: 100%;
+    }
+
+    body .banner {
+        background-image: url(/assets/responsive-banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:#FFF;
+    }
+  }
+>>>>>>> feature/responsive-menu

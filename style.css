@@ -184,12 +184,7 @@ main {
 
 #hotel_informations{
   display: flex;
-<<<<<<< HEAD
   height: 100%;
-=======
-  min-height: 400px;
-  margin: 0 20px;
->>>>>>> feature/responsive-menu
 }
 
 .hotel_info {
@@ -210,7 +205,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-<<<<<<< HEAD
     margin-top: 80px;
     margin-bottom: 100px;
 }
@@ -219,34 +213,11 @@ main {
     font-size: 12px;
 }
 
-=======
-    margin: 50px;
-    font-size: 10px;
-    color:dimgray ;
-}
-
->>>>>>> feature/responsive-menu
 .text-cadastrar h2{
     text-align: center;
     font-size: 15px;
-<<<<<<< HEAD
     padding: 60px;
     
-=======
-    height: 50px;
-}
-
-.barra-de-cadastro{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.barra-de-cadastro input{
-    width:650px;
-    padding: 20px;
->>>>>>> feature/responsive-menu
 }
 
 .barra-de-cadastro button{
@@ -294,11 +265,7 @@ main {
 
     .main-container{
         flex-direction: column;
-<<<<<<< HEAD
         margin: 0 20px;
-=======
-        margin: 0;
->>>>>>> feature/responsive-menu
     }
 
     .img-left {
@@ -341,7 +308,6 @@ main {
         margin-top: 40px;
     }
 
-<<<<<<< HEAD
     .text-cadastrar{
         margin: auto;
     }
@@ -359,16 +325,3 @@ main {
     }
 
 }
-=======
-    .barra-de-cadastro{
-      width: 100%;
-    }
-
-    body .banner {
-        background-image: url(/assets/responsive-banner.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        color:#FFF;
-    }
-  }
->>>>>>> feature/responsive-menu

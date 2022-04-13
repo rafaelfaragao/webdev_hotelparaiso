@@ -78,6 +78,17 @@ button {
     font-size: small;
 }
 
+#responsive-icon {
+  display: none;
+  width: 50px;
+  height: 50px;
+}
+
+#responsive-icon img{
+  width: 100%;
+  height: 100%;
+}
+
 /* section two*/
 
 .section-two {
@@ -143,7 +154,7 @@ main {
 
 #informations{
   background-color: #333333;
-  height: 100vh;
+  min-height: 700px;
   color: #FFF;
   display: flex;
   flex-direction: column;
@@ -152,16 +163,14 @@ main {
 
 #text_info{
   margin-top: 72px;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
 
 #hotel_informations{
   display: flex;
-  height: 100%;
- 
-  
+  min-height: 400px;
+  margin: 0 20px;
 }
-
 
 .hotel_info {
   padding: 24px;
@@ -182,11 +191,9 @@ main {
     align-items: center;
     flex-direction: column;
     margin: 50px;
-    font-size: 10px;    
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 10px;
     color:dimgray ;
 }
-
 
 .text-cadastrar h2{
     text-align: center;
@@ -201,8 +208,6 @@ main {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    
-    
 }
 
 .barra-de-cadastro input{
@@ -217,9 +222,25 @@ main {
 
 
 
-@media (max-width: 799px){
-    body header .container ul{
+@media screen and (max-width: 799px){
+    header {
+      padding: 0 20px;
+    }
+  
+    header .container {
+      padding: 0;
+    }
+  
+    header .container ul{
         display: none;
+    }
+
+    #responsive-icon {
+      display: block;
+    }
+
+    #wrapper {
+      margin: 0 10px 20px;
     }
 
     .text-container{
@@ -227,17 +248,17 @@ main {
     }
 
     .main-container{
-        display: flex;
         flex-direction: column;
+        margin: 0;
     }
 
     .img-left {
-        width: 183%;
+        width: 100%;
         height: 246px;
     }
 
     .img-right {
-        width:185%;
+        width:100%;
         height: 261px;
     }
 
@@ -271,10 +292,13 @@ main {
         margin-top: 40px;
     }
 
+    .barra-de-cadastro{
+      width: 100%;
+    }
 
     body .banner {
         background-image: url(https://www.imagensparawhats.club/wp-content/uploads/2019/02/Praia-2.jpg);
-        background-size:contain;
+        background-size: cover;
         background-repeat: no-repeat;
         color:#FFF;
     }

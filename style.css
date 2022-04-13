@@ -55,9 +55,10 @@ nav a {
     text-decoration: none;
 }
 
-div.banner {
+.banner {
     background-image: url(https://s1.1zoom.me/b5453/24/Maldives_Coast_Evening_Tropics_Gili_Lankanfushi_523317_1920x1080.jpg);
     background-attachment: fixed;
+    background-size: cover;
     color: rgb(255, 255, 255);
     text-align: center;
     height: 100vh;
@@ -65,6 +66,10 @@ div.banner {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.banner h1, .banner h2{
+  margin-bottom: 20px;
 }
 
 button {
@@ -102,7 +107,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .text-container{
@@ -164,6 +169,17 @@ main {
 #text_info{
   margin-top: 72px;
   margin-bottom: 48px;
+}
+
+#text_info h2 {
+  margin-bottom: 20px;
+}
+
+#page_break{
+  width: 30%;
+  height: 5px;
+  background-color: #FFF;
+  margin: 60px auto 0;
 }
 
 #hotel_informations{

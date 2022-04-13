@@ -55,10 +55,9 @@ nav a {
     text-decoration: none;
 }
 
-.banner {
-    background-image: url(/assets/banner.jpg);
+div.banner {
+    background-image: url(https://s1.1zoom.me/b5453/24/Maldives_Coast_Evening_Tropics_Gili_Lankanfushi_523317_1920x1080.jpg);
     background-attachment: fixed;
-    background-size: cover;
     color: rgb(255, 255, 255);
     text-align: center;
     height: 100vh;
@@ -66,10 +65,6 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.banner h1, .banner h2{
-  margin-bottom: 20px;
 }
 
 button {
@@ -81,17 +76,6 @@ button {
     height: 50px;
     color: #000000;
     font-size: small;
-}
-
-#responsive-icon {
-  display: none;
-  width: 50px;
-  height: 50px;
-}
-
-#responsive-icon img{
-  width: 100%;
-  height: 100%;
 }
 
 /* section two*/
@@ -107,7 +91,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .text-container{
@@ -155,12 +139,15 @@ main {
     width: 60%;
 }
 
-/*footer*/
+/*section informations*/
 
+section#informations h3{
+    color: #afb332;
+}
 #informations{
-  background-color: #333333;
-  min-height: 700px;
-  color: #FFF;
+  background-color: #191c01;
+  height: 100vh;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -168,18 +155,7 @@ main {
 
 #text_info{
   margin-top: 72px;
-  margin-bottom: 48px;
-}
-
-#text_info h2 {
-  margin-bottom: 20px;
-}
-
-#page_break{
-  width: 30%;
-  height: 5px;
-  background-color: #FFF;
-  margin: 60px auto 0;
+  margin-bottom: 72px;
 }
 
 #hotel_informations{
@@ -200,63 +176,24 @@ main {
   height: 80px;
 }
 
-.cadastrar {
+
+/*footer*/
+
+footer{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 80px;
-    margin-bottom: 100px;
-}
-
-.titulo-cadastrar {
-    font-size: 12px;
-}
-
-.text-cadastrar h2{
+    background-color: #191c01;
+    padding: 10px;  
     text-align: center;
-    font-size: 15px;
-    padding: 60px;
-    
 }
 
-.barra-de-cadastro button{
-    background-color: darkorange;
-    width: 110px;
-    height: 28px;
+footer p{
+    color: #afb332;
 }
 
-.barra-de-cadastro input{
-    font-size: medium;
-    width: 680px;
-    height: 28px;
-    
-}
-
-.barra-de-cadastro{
-    display: flex;
-    gap: 20px;
-}
-
-@media screen and (max-width: 799px){
-    header {
-      padding: 0 20px;
-    }
-  
-    header .container {
-      padding: 0;
-    }
-  
-    header .container ul{
+@media (max-width: 799px){
+    body header .container ul{
         display: none;
-    }
-
-    #responsive-icon {
-      display: block;
-    }
-
-    #wrapper {
-      margin: 0 10px 20px;
     }
 
     .text-container{
@@ -264,17 +201,17 @@ main {
     }
 
     .main-container{
+        display: flex;
         flex-direction: column;
-        margin: 0 20px;
     }
 
     .img-left {
-        width: 100%;
+        width: 183%;
         height: 246px;
     }
 
     .img-right {
-        width:100%;
+        width:185%;
         height: 261px;
     }
 
@@ -308,20 +245,11 @@ main {
         margin-top: 40px;
     }
 
-    .text-cadastrar{
-        margin: auto;
-    }
-
-    .barra-de-cadastro input{
-        height: auto;
-        width: auto;
-    }
 
     body .banner {
         background-image: url(https://www.imagensparawhats.club/wp-content/uploads/2019/02/Praia-2.jpg);
-        background-size:cover;
+        background-size:contain;
         background-repeat: no-repeat;
         color:#FFF;
     }
-
 }
